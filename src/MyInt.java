@@ -13,8 +13,6 @@ public class MyInt extends Expression{
 
     @Override
     public String toString() {
-        return "MyInt{" +
-                "value=" + value +
-                '}';
+        return ""+value;
     }
 }

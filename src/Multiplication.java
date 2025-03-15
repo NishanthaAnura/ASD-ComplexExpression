@@ -15,9 +15,6 @@ public class Multiplication extends Expression{
 
     @Override
     public String toString() {
-        return "Multiplication{" +
-                "expr1=" + expr1 +
-                ", expr2=" + expr2 +
-                '}';
+        return "(" +expr1.toString()+" * "+expr2.toString()+")";
     }
 }
